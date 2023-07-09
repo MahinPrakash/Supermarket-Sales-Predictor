@@ -84,7 +84,7 @@ else:
      o_types=3.0
 x=[[item_weight,fat_content,visibility,item_type,mrp,
                   year,outlet_size,o_location_type,o_types ]]
-model_path=r'C:\Users\Mahin Prakash\Desktop\DS\BigMart-Sales-Prediction-With-Deployment-main\sales_predictor.sav'
+model_path='sales_predictor.sav'
 model= joblib.load(model_path)
 result=model.predict(x)[0]
 col1, col2, col3 , col4, col5 = st.columns(5)
