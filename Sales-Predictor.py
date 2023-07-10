@@ -1,8 +1,8 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+import pickle
 import joblib
-
 st.markdown(
     """
     <style>
@@ -83,8 +83,10 @@ else:
      o_types=3.0
 x=[[item_weight,fat_content,visibility,item_type,mrp,
                   year,outlet_size,o_location_type,o_types ]]
-model_path='sales_predictor.sav'
-model= joblib.load(model_path)
+# model_path='sales_predictor.sav'
+# model= joblib.load(model_path)
+with open( 'prediction_model', 'rb') as f:
+    model=pickle.load(f)
 result=model.predict(x)[0]
 col1, col2, col3 , col4, col5 = st.columns(5)
 
@@ -99,7 +101,4 @@ with col5:
 with col3 :
     submit_button = st.button('Predict')
 if submit_button:
-    if (result>=200):
-         st.success(f"Item Outlet Sales = {(result.round(1))-100}")
-    else:
-         st.success(f"Item Outlet Sales = {(result.round(1))-40}")
+     st.success(f"Item Outlet Sales = {result.round(1)}")
