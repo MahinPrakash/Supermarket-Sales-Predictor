@@ -3,36 +3,8 @@ import numpy as np
 import pandas as pd
 import pickle
 
-st.markdown(
-    """
-    <style>
-        [class="css-18ni7ap e8zbici2"]{
-           visibility: hidden;
-        }
-        .css-12oz5g7{
-           padding-top:0rem;
-        }
-        [class="main css-1v3fvcr egzxvld3"] {
-          background-image: url('https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2654.jpg?w=900&t=st=1688727986~exp=1688728586~hmac=b3ac94b60d2c35089e2fbf7c0d788792afef6e32ef3db90df0eb54d338d36923');
-          background-size: cover;
-        }
-        [data-testid="stHeader"]{
-        background-color:rgba(0,0,0,0);
-        }
-        [class="css-1cpxqw2 edgvbvh9"]{
-          text-align:center
-        }
-        [class="css-1q1n0ol egzxvld0"]{
-          visibility: hidden;
-        }
-        [data-testid="stMarkdownContainer"]{
-          font-size:24px
-        }
-    </style>
-    """,
-    
-    unsafe_allow_html=True,
-)
+with open('styles.css') as f:
+    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 
 st.markdown("<h1 style='text-align:center;'>Sales Predictor</h1>",unsafe_allow_html=True)
