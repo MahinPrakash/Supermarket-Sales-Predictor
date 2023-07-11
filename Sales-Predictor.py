@@ -7,7 +7,7 @@ with open('styles.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 
-st.markdown("<h1 style='text-align:center;'>Super Market Sales Predictor</h1>",unsafe_allow_html=True)
+st.markdown("<h1 style='text-align:center;'>Super Market Item Sales Predictor</h1>",unsafe_allow_html=True)
 
 item_weight = st.number_input("Item Weight:")
 options = ["regular","low_fat"]
