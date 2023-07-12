@@ -2,6 +2,10 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import pickle
+import logging
+
+logging.basicConfig(filename='log_file', level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
+logging.info('Application started')
 
 with open('styles.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
@@ -57,6 +61,8 @@ x=[[item_weight,fat_content,visibility,item_type,mrp,
                   year,outlet_size,o_location_type,o_types ]]
 # model_path='sales_predictor.sav'
 # model= joblib.load(model_path)
+logging.info(f"Item Weight: {item_weight}, Item Fat Content: {fat_content}, Item Visibility: {visibility}, Item Type: {item_type}, MRP: {mrp}, Years of Operation: {year}, Outlet Size: {outlet_size}, Outlet Location Type: {o_location_type}, Outlet Types: {o_types}")
+
 with open( 'prediction_model', 'rb') as f:
     model=pickle.load(f)
 result=model.predict(x)[0]
@@ -74,3 +80,5 @@ with col3 :
     submit_button = st.button('Predict')
 if submit_button:
      st.success(f"Item Outlet Sales = {result.round(1)}")
+logging.info(f"Item Outlet Sales predicted: {result.round(1)}")
+logging.info('Application ended')
