@@ -59,8 +59,6 @@ else:
      o_types=3.0
 x=[[item_weight,fat_content,visibility,item_type,mrp,
                   year,outlet_size,o_location_type,o_types ]]
-# model_path='sales_predictor.sav'
-# model= joblib.load(model_path)
 logging.info(f"Item Weight: {item_weight}, Item Fat Content: {fat_content}, Item Visibility: {visibility}, Item Type: {item_type}, MRP: {mrp}, Years of Operation: {year}, Outlet Size: {outlet_size}, Outlet Location Type: {o_location_type}, Outlet Types: {o_types}")
 
 with open( 'prediction_model', 'rb') as f:

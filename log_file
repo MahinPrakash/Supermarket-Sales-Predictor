@@ -1,0 +1,56 @@
+2023-07-12 23:34:48,476 INFO: Application started
+2023-07-12 23:34:48,497 INFO: Item Weight: 0.0, Item Fat Content: 1.0, Item Visibility: 0.0, Item Type: 0.0, MRP: 0.0, Years of Operation: 0, Outlet Size: 2.0, Outlet Location Type: 0.0, Outlet Types: 0.0
+2023-07-12 23:34:53,612 INFO: Item Outlet Sales predicted: 509.3
+2023-07-12 23:34:53,612 INFO: Application ended
+2023-07-12 23:34:59,347 INFO: Application started
+2023-07-12 23:34:59,367 INFO: Item Weight: 9.0, Item Fat Content: 1.0, Item Visibility: 0.0, Item Type: 0.0, MRP: 0.0, Years of Operation: 0, Outlet Size: 2.0, Outlet Location Type: 0.0, Outlet Types: 0.0
+2023-07-12 23:34:59,658 INFO: Item Outlet Sales predicted: 436.4
+2023-07-12 23:34:59,659 INFO: Application ended
+2023-07-12 23:35:02,432 INFO: Application started
+2023-07-12 23:35:02,450 INFO: Item Weight: 9.0, Item Fat Content: 1.0, Item Visibility: 0.016, Item Type: 0.0, MRP: 0.0, Years of Operation: 0, Outlet Size: 2.0, Outlet Location Type: 0.0, Outlet Types: 0.0
+2023-07-12 23:35:02,744 INFO: Item Outlet Sales predicted: 431.7
+2023-07-12 23:35:02,744 INFO: Application ended
+2023-07-12 23:35:03,215 INFO: Application started
+2023-07-12 23:35:03,230 INFO: Item Weight: 9.0, Item Fat Content: 1.0, Item Visibility: 0.016, Item Type: 2.0, MRP: 0.0, Years of Operation: 0, Outlet Size: 2.0, Outlet Location Type: 0.0, Outlet Types: 0.0
+2023-07-12 23:35:03,541 INFO: Item Outlet Sales predicted: 423.3
+2023-07-12 23:35:03,542 INFO: Application ended
+2023-07-12 23:35:07,026 INFO: Application started
+2023-07-12 23:35:07,043 INFO: Item Weight: 9.0, Item Fat Content: 1.0, Item Visibility: 0.016, Item Type: 2.0, MRP: 220.0, Years of Operation: 0, Outlet Size: 2.0, Outlet Location Type: 0.0, Outlet Types: 0.0
+2023-07-12 23:35:07,327 INFO: Item Outlet Sales predicted: 1366.4
+2023-07-12 23:35:07,327 INFO: Application ended
+2023-07-12 23:35:10,424 INFO: Application started
+2023-07-12 23:35:10,443 INFO: Item Weight: 9.0, Item Fat Content: 1.0, Item Visibility: 0.016, Item Type: 2.0, MRP: 220.0, Years of Operation: 20, Outlet Size: 2.0, Outlet Location Type: 0.0, Outlet Types: 0.0
+2023-07-12 23:35:10,741 INFO: Item Outlet Sales predicted: 1369.9
+2023-07-12 23:35:10,741 INFO: Application ended
+2023-07-12 23:35:11,751 INFO: Application started
+2023-07-12 23:35:11,768 INFO: Item Weight: 9.0, Item Fat Content: 1.0, Item Visibility: 0.016, Item Type: 2.0, MRP: 220.0, Years of Operation: 20, Outlet Size: 1.0, Outlet Location Type: 0.0, Outlet Types: 0.0
+2023-07-12 23:35:12,066 INFO: Item Outlet Sales predicted: 1392.7
+2023-07-12 23:35:12,067 INFO: Application ended
+2023-07-12 23:35:13,547 INFO: Application started
+2023-07-12 23:35:13,567 INFO: Item Weight: 9.0, Item Fat Content: 1.0, Item Visibility: 0.016, Item Type: 2.0, MRP: 220.0, Years of Operation: 20, Outlet Size: 1.0, Outlet Location Type: 1.0, Outlet Types: 0.0
+2023-07-12 23:35:13,863 INFO: Item Outlet Sales predicted: 1232.8
+2023-07-12 23:35:13,863 INFO: Application ended
+2023-07-12 23:35:14,901 INFO: Application started
+2023-07-12 23:35:14,919 INFO: Item Weight: 9.0, Item Fat Content: 1.0, Item Visibility: 0.016, Item Type: 2.0, MRP: 220.0, Years of Operation: 20, Outlet Size: 1.0, Outlet Location Type: 1.0, Outlet Types: 2.0
+2023-07-12 23:35:15,215 INFO: Item Outlet Sales predicted: 3600.6
+2023-07-12 23:35:15,215 INFO: Application ended
+2023-07-12 23:35:15,974 INFO: Application started
+2023-07-12 23:35:15,999 INFO: Item Weight: 9.0, Item Fat Content: 1.0, Item Visibility: 0.016, Item Type: 2.0, MRP: 220.0, Years of Operation: 20, Outlet Size: 1.0, Outlet Location Type: 1.0, Outlet Types: 2.0
+2023-07-12 23:35:16,305 INFO: Item Outlet Sales predicted: 3600.6
+2023-07-12 23:35:16,305 INFO: Application ended
+2023-07-12 23:37:22,266 INFO: Application started
+2023-07-12 23:37:22,284 INFO: Item Weight: 1.0, Item Fat Content: 1.0, Item Visibility: 0.016, Item Type: 2.0, MRP: 220.0, Years of Operation: 20, Outlet Size: 1.0, Outlet Location Type: 1.0, Outlet Types: 2.0
+2023-07-12 23:37:22,598 INFO: Item Outlet Sales predicted: 3552.8
+2023-07-12 23:37:22,598 INFO: Application ended
+2023-07-12 23:37:23,131 INFO: Application started
+2023-07-12 23:37:23,147 INFO: Item Weight: 1.0, Item Fat Content: 0.0, Item Visibility: 0.016, Item Type: 2.0, MRP: 220.0, Years of Operation: 20, Outlet Size: 1.0, Outlet Location Type: 1.0, Outlet Types: 2.0
+2023-07-12 23:37:23,457 INFO: Item Outlet Sales predicted: 3536.5
+2023-07-12 23:37:23,457 INFO: Application ended
+2023-07-12 23:37:24,685 INFO: Application started
+2023-07-12 23:37:24,694 INFO: Item Weight: 1.0, Item Fat Content: 0.0, Item Visibility: 0.016, Item Type: 0.0, MRP: 220.0, Years of Operation: 20, Outlet Size: 1.0, Outlet Location Type: 1.0, Outlet Types: 2.0
+2023-07-12 23:37:24,983 INFO: Item Outlet Sales predicted: 3530.4
+2023-07-12 23:37:24,985 INFO: Application ended
+2023-07-12 23:37:27,637 INFO: Application started
+2023-07-12 23:37:27,648 INFO: Item Weight: 1.0, Item Fat Content: 0.0, Item Visibility: 0.016, Item Type: 0.0, MRP: 220.0, Years of Operation: 20, Outlet Size: 1.0, Outlet Location Type: 1.0, Outlet Types: 2.0
+2023-07-12 23:37:27,928 INFO: Item Outlet Sales predicted: 3530.4
+2023-07-12 23:37:27,928 INFO: Application ended
